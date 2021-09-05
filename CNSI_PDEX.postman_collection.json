@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "67d8fcff-333c-41ad-b898-d8e8c1581b1f",
+		"name": "CNSI_PDEX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PRACROLE",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "654321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Date",
+						"value": "Sun, 03 Jan 2021 18:41:57 IST",
+						"type": "text"
+					},
+					{
+						"key": "X-Request-ID",
+						"value": "TEST Auto1fs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://internal-FHIR-QA-ALB-1933918839.ap-south-1.elb.amazonaws.com/adapter/api/v1/patient/80192718",
+					"protocol": "http",
+					"host": [
+						"internal-FHIR-QA-ALB-1933918839",
+						"ap-south-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"adapter",
+						"api",
+						"v1",
+						"patient",
+						"80192718"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy 7",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "654321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Date",
+						"value": "Sun, 03 Jan 2021 18:41:57 IST",
+						"type": "text"
+					},
+					{
+						"key": "X-Request-ID",
+						"value": "TEST Auto1fs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://qa.cnsifhirworx.com/pdex/PractitionerRole?_count=100",
+					"protocol": "https",
+					"host": [
+						"qa",
+						"cnsifhirworx",
+						"com"
+					],
+					"path": [
+						"pdex",
+						"PractitionerRole"
+					],
+					"query": [
+						{
+							"key": "_count",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy 6",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "654321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Date",
+						"value": "Sun, 03 Jan 2021 18:41:57 IST",
+						"type": "text"
+					},
+					{
+						"key": "X-Request-ID",
+						"value": "TEST Auto1fs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://qa.cnsifhirworx.com/pdex/metadata",
+					"protocol": "https",
+					"host": [
+						"qa",
+						"cnsifhirworx",
+						"com"
+					],
+					"path": [
+						"pdex",
+						"metadata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRACROLE Copy 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
